@@ -1,5 +1,6 @@
 package org.example;
 
+import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -7,9 +8,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
+import static org.junit.Assert.assertEquals;
 
-public class TestSelenium {
-    public static void main(String[] args) throws InterruptedException {
+public class TestSeleniumTest {
+
+    @Test
+    public void testForm() throws InterruptedException {
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.selenium.dev/selenium/web/web-form.html");
         System.out.println("Successfully opened the website");
@@ -42,6 +46,7 @@ public class TestSelenium {
         String value = message.getText();
         System.out.println("Submission message: " + value);
         Thread.sleep(3000); // wait
+        assertEquals("Received!", value);
 
         // Quit browser
         driver.quit();

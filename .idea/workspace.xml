@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b30ca9f6-eceb-4aa5-b866-36f245636bde" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TestSeleniumTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TestSelenium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TestSelenium.java" afterDir="false" />
@@ -47,7 +48,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TestSeleniumTest">
     <configuration name="TestSelenium" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.TestSelenium" />
       <module name="test" />
@@ -61,8 +62,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSeleniumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TestSeleniumTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestSeleniumTest" />
         <item itemvalue="Application.TestSelenium" />
       </list>
     </recent_temporary>

@@ -65,10 +65,6 @@ public class FillAllInputsTest {
             rangeBox.sendKeys(Keys.ARROW_RIGHT);
             Thread.sleep(4000); // wait
 
-            Dimension rangeSize = rangeBox.getSize();
-            System.out.println(rangeSize);
-
-
             // Wait
             Thread.sleep(4000); // wait
 

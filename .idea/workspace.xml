@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b30ca9f6-eceb-4aa5-b866-36f245636bde" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ExplicitWaitTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/FillAllInputsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/FillAllInputsTest.java" afterDir="false" />
     </list>
@@ -46,7 +47,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.FillAllInputsTest">
+  <component name="RunManager" selected="JUnit.ExplicitWaitTest">
     <configuration name="TestSelenium" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.TestSelenium" />
       <module name="test" />
@@ -56,6 +57,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExplicitWaitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ExplicitWaitTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -92,6 +108,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ExplicitWaitTest" />
         <item itemvalue="JUnit.FillAllInputsTest" />
         <item itemvalue="JUnit.TestSeleniumTest" />
         <item itemvalue="Application.TestSelenium" />

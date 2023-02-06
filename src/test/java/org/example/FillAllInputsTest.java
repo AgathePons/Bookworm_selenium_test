@@ -1,9 +1,7 @@
 package org.example;
 
 import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
@@ -55,6 +53,20 @@ public class FillAllInputsTest {
             checkedBox.click();
             System.out.println("checked value: " + checkedBox.getAttribute("checked"));
             defaultCheckBox.click();
+            radioBox.click();
+            // color
+            colorBox.sendKeys("#49F031");
+            // date
+            dateBox.sendKeys("04/03/1991");
+            driver.findElement(By.xpath("//html")).click();
+            // range
+            rangeBox.sendKeys(Keys.ARROW_RIGHT);
+            Thread.sleep(4000); // wait
+            rangeBox.sendKeys(Keys.ARROW_RIGHT);
+            Thread.sleep(4000); // wait
+
+            Dimension rangeSize = rangeBox.getSize();
+            System.out.println(rangeSize);
 
 
             // Wait

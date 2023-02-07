@@ -1,4 +1,4 @@
-package org.example;
+package org.example.samples;
 
 import org.junit.Test;
 import org.openqa.selenium.*;
@@ -61,12 +61,10 @@ public class FillAllInputsTest {
             driver.findElement(By.xpath("//html")).click();
             // range
             rangeBox.sendKeys(Keys.ARROW_RIGHT);
-            Thread.sleep(4000); // wait
             rangeBox.sendKeys(Keys.ARROW_RIGHT);
-            Thread.sleep(4000); // wait
 
             // Wait
-            Thread.sleep(4000); // wait
+            Thread.sleep(3000); // wait
 
             WebElement submitButton = driver.findElement(By.cssSelector("button"));
 

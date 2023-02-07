@@ -13,7 +13,7 @@ import java.time.Duration;
 
 public class ExplicitWaitTest {
     @Test
-    public void testWaitUntil() {
+    public void testWaitUntil() throws InterruptedException {
         WebDriver driver = new ChromeDriver();
         driver.get("https://google.com/ncr");
 
@@ -24,6 +24,7 @@ public class ExplicitWaitTest {
         WebElement firstResult = new WebDriverWait(driver, Duration.ofSeconds(10))
                 .until(ExpectedConditions.elementToBeClickable(By.xpath("//a/h3")));
         System.out.println(firstResult);
+        Thread.sleep(4000); // wait
         driver.quit();
     }
 }

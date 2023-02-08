@@ -1,4 +1,4 @@
-package org.example.codingGame.pageObject;
+package org.example.bookworm.pageObject;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -13,5 +13,9 @@ public class HomePageObject {
         if(!driver.findElement(pseudoLi).getAttribute("innerHTML").equals("pseudo: r0xx0r2000")) {
             throw new IllegalStateException("Not logged on the application");
         }
+    }
+
+    public String getPseudoLi() {
+        return  driver.findElement(pseudoLi).getAttribute("innerHTML");
     }
 }

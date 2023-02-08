@@ -5,18 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b30ca9f6-eceb-4aa5-b866-36f245636bde" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/codingGame/pageObject/HomePageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/codingGame/pageObject/SignInPageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/codingGame/userAction/LoginValidUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/samples/BookwormTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/samples/CodingGameTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/samples/ExplicitWaitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/bookwormTest/TestLogin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TestSelenium.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ExplicitWaitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/FillAllInputsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/samples/FillAllInputsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TestSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/samples/TestSeleniumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/codingGame/pageObject/HomePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/bookworm/pageObject/HomePageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/codingGame/pageObject/SignInPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/bookworm/pageObject/SignInPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/codingGame/userAction/LoginValidUser.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,13 +31,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="2LEIAbA1x6osa1NGHucM2ZhivPa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -56,7 +44,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.BookwormTest">
+  <component name="RunManager" selected="JUnit.TestLogin">
     <configuration name="BookwormTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
@@ -118,16 +106,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FillAllInputsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.samples.*" />
+          <option name="PATTERN" value="org.example.bookwormTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.samples" />
-      <option name="MAIN_CLASS_NAME" value="org.example.samples.FillAllInputsTest" />
+      <option name="PACKAGE_NAME" value="org.example.bookwormTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.bookwormTest.TestLogin" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestLogin" />
         <item itemvalue="JUnit.BookwormTest" />
         <item itemvalue="JUnit.BookwormTest.signInUser" />
         <item itemvalue="JUnit.CodingGameTest" />
         <item itemvalue="JUnit.ExplicitWaitTest" />
-        <item itemvalue="JUnit.FillAllInputsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -153,5 +141,16 @@
       <updated>1675429676545</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
